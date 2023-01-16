@@ -7,24 +7,24 @@
   if ( isset($_ENV['DATABASE_TABLE']) )
     define('DATABASE_TABLE', $_ENV['DATABASE_TABLE']);
   else
-    define('DATABASE_TABLE', 'absolute');
+    define('DATABASE_TABLE', 'epiz_33384482_he');
 
   if ( isset($_ENV['DATABASE_USER']) )
     define('DATABASE_USER', $_ENV['DATABASE_USER']);
   else
-    define('DATABASE_USER', 'absolute');
+    define('DATABASE_USER', 'epiz_33384482');
 
   if ( isset($_ENV['DATABASE_PASSWORD']) )
     define('DATABASE_PASSWORD', $_ENV['DATABASE_PASSWORD']);
   else
-    define('DATABASE_PASSWORD', 'qwerty');
+    define('DATABASE_PASSWORD', '6kZzQJtXHSLIz');
 
 	/**
    * Setup the connection to our database.
    */
 	function DatabaseConnect()
 	{
-		$Host = 'localhost';
+		$Host = 'sql205.epizy.com';
 		$Char_Set = 'utf8mb4';
 
 		$PDO_Attributes = [
